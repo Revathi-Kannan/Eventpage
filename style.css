@@ -1,0 +1,153 @@
+body{
+    background-color:blanchedalmond
+}
+
+.background-container{
+    background-image: url(https://th.bing.com/th/id/OIP.wTZkqfDA40CsnIN6HShkSQHaE8?w=273&h=182&c=7&r=0&o=5&dpr=1.1&pid=1.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 800px;
+    opacity: 0.6;
+   padding-top: 200px;
+}
+
+.Mainheader{
+text-align:center;
+margin-bottom: 30px;
+margin-top: -100px;
+font-size: 80px;
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+animation: flowAnimation 2s ease-in-out infinite alternate;
+}
+
+@keyframes flowAnimation {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.Subheader{
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    top: 80px;
+    font-size: 30px;
+    font-weight:900;
+    text-decoration: underline;
+
+}
+
+.small-container{
+    margin: 10px;
+    height: 600px;
+    padding-top: 15px;
+    padding-left: 15px;
+    border: 3px solid green ;
+    display: grid;
+
+}
+
+.name{
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    left: 300px;
+    top: 5px;
+}
+
+.input1{
+    height: 25px;
+    width: 25%;
+    position: relative;
+    left: 350px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Email{
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    left: -200px;
+    top: 80px;
+    
+}
+
+.input2{
+    height: 25px;
+    width: 25%;
+    position: relative;
+    left: -150px;
+    top: 75px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Phone{
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    left: -700px;
+    top: 150px;
+    
+}
+
+.input3{
+    height: 25px;
+    width: 25%;
+    position: relative;
+    left: -654px;
+    top: 150px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+}
+
+.seats{
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    left: -1200px;
+    top: 220px;
+    
+}
+
+.input4{
+    height: 25px;
+    width: 25%;
+    position: relative;
+    left: 440px;
+    top: 190px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: left;
+}
+
+.Submit{
+    height: 30px;
+    width: 60px;
+    position: relative;
+    top: 80px;
+    left: 440px;
+    color: black;
+    font-weight: bolder ;
+  
+}
+
+
+.Clear{
+    height: 30px;
+    width: 60px;
+    position: relative;
+    top: -105.5px;
+    left: 520px;
+    color: black;
+    font-weight: bolder ;
+}
